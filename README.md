@@ -1,7 +1,8 @@
-# Stackoverflow Tag Prediction Facebook Recruiting III - Keyword Extraction
-This repository consist of code implementation for stackoverflow tag prediction held by Facebook for recruitments. Problem statement consist of mutli-label classification problem with business constraint for low latency model.
+# Quora Question Pairs
+Can you identify question pairs that have the same intent?
+This repository consist of code implementation for Quora Question Pairs problem in which we have to identify whether the two question are similar or not.
 <br>
-All the detail for the following are written in - https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction
+All the detail for the following are written in - https://www.kaggle.com/c/quora-question-pairs
 <br>
 
 # Library
@@ -17,18 +18,27 @@ All the detail for the following are written in - https://www.kaggle.com/c/faceb
  <br>
  -sklearn
  <br>
+ -tqdm
+ <br>
  
 # Algorithm 
-OnevsRest Logistic Regression
-<br>
+ -Logistic Regression
+ <br>
+ -Linear Support Vector Classifier
+ <br>
+ -Kernel Support Vector Classifier
+ <br>
+ -Decision Tree Classifier
+ <br>
+ -Random Forest Classfier
+ <br>
+
 
 # Dataset
 Dataset for the same can be downloaded from the given link.<br>
-link - https://www.kaggle.com/c/facebook-recruiting-iii-keyword-extraction/data
+link -https://www.kaggle.com/c/quora-question-pairs/data
 <br>
 
 # Author
 Chirag Malaviya<br>
 
-# Reference
-Applied AI Case Study
